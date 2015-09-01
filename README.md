@@ -4,6 +4,7 @@ A search bar helper class created with TypeScript
 Add the TypeScript class to your scripts folder.
 
 Then in your view: 
+```html
 <script>
 //To initialize
     var gridId = 'CoachRosterGrid';
@@ -16,3 +17,4 @@ Then in your view:
 helper.filterGrid(gridId);
 
 </script>
+```
