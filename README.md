@@ -8,8 +8,8 @@ Then in your view:
 <script src="~/Scripts/ts/SearchBarHelper.js"></script>
 <script>
 //To initialize
-    //1st param is the gridId
-    //2nd param is an array of fields you want to filter by (the helper uses the text in the search box on the page.)
-    var helper = new SearchBarHelper('CoachRosterGrid', ['FirstName', 'LastName']);
+    //1st parameter is the gridId
+    //2nd parameter is an array of fields you want to filter by (the helper uses the text in the search box on the page.)
+    var helper = new SearchBarHelper('GridId', ['FirstName', 'LastName']);
 </script>
 ```
